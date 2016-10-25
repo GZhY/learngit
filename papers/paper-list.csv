@@ -5,6 +5,12 @@ Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
 "Cowie, Jim; Lehnert, Wendy; ",Information extraction,Communications of the ACM,39,1,80-91,1996,ACM
 "Sager, Naomi; ",Natural language information processing,,,,,1981,"Addison-Wesley Publishing Company, Advanced Book Program"
 
+Open Information Extraction
+Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
+"Moro, Andrea; Navigli, Roberto; ",Integrating Syntactic and Semantic Analysis into the Open Information Extraction Paradigm.,IJCAI,,,,2013,
+"Banko, Michele; Cafarella, Michael J; Soderland, Stephen; Broadhead, Matthew; Etzioni, Oren; ",Open Information Extraction from the Web.,IJCAI,7,,2670-2676,2007,
+"Etzioni, Oren; Fader, Anthony; Christensen, Janara; Soderland, Stephen; Mausam, Mausam; ",Open Information Extraction: The Second Generation.,IJCAI,11,,3-10,2011,
+
 Entity Extraction
 Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
 "Etzioni, Oren; Cafarella, Michael; Downey, Doug; Popescu, Ana-Maria; Shaked, Tal; Soderland, Stephen; Weld, Daniel S; Yates, Alexander; ",Unsupervised named-entity extraction from the web: An experimental study,Artificial intelligence,165,1,91-134,2005,Elsevier
