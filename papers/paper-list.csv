@@ -25,3 +25,21 @@ Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
 "Chinchor, Nancy; Marsh, Elaine; ",Muc-7 information extraction task definition,"Proceeding of the seventh message understanding conference (MUC-7), Appendices",,,359-367,1998,
 "Jiang, Ridong; Banchs, Rafael E; Li, Haizhou; ",Evaluating and Combining Named Entity Recognition Systems,ACL 2016,,,21,2016,
 
+Web Information Extraction
+Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
+"Shen, Yuan Kui; Karger, David R; ",U-REST: an unsupervised record extraction system,Proceedings of the 16th international conference on World Wide Web,,,1347-1348,2007,ACM
+"Liu, Bing; Grossman, Robert; Zhai, Yanhong; ",Mining data records in web pages,Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining,,,601-606,2003,ACM
+"Zhai, Yanhong; Liu, Bing; ",Web data extraction based on partial tree alignment,Proceedings of the 14th international conference on World Wide Web,,,76-85,2005,ACM
+"Prasad, Jyotika; Paepcke, Andreas; ",Coreex: content extraction from online news articles,Proceedings of the 17th ACM conference on Information and knowledge management,,,1391-1392,2008,ACM
+"吴共庆; 胡骏; 李莉; 徐喆昊; 刘鹏程; 胡学钢; 吴信东; ",基于标签路径特征融合的在线 Web 新闻内容抽取,软件学报,,3,714-735,2016,
+"郭剑毅; 陈鹏; 余正涛; 线岩团; 毛存礼; 赵君; ",基于多核融合的中文领域实体关系抽取,中文信息学报,30,1,24-30,2016,
+"郭少华; 郭 岩; 李海燕; 刘 悦; 张 瑾; 程学旗; ",可扩展的网页关键信息抽取研究,中文信息学报,29,1,97-103,2015,
+"Baroni, Marco; Chantree, Francis; Kilgarriff, Adam; Sharoff, Serge; ",Cleaneval: a Competition for Cleaning Web Pages.,LREC,,,,2008,
+"Bar-Yossef, Ziv; Rajagopalan, Sridhar; ",Template detection via data mining and its applications,Proceedings of the 11th international conference on World Wide Web,,,580-591,2002,ACM
+"Yi, Lan; Liu, Bing; Li, Xiaoli; ",Eliminating noisy information in web pages for data mining,Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining,,,296-305,2003,ACM
+"Lin, Shian-Hua; Ho, Jan-Ming; ",Discovering informative content blocks from Web documents,Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining,,,588-593,2002,ACM
+"Gogar, Tomas; Hubacek, Ondrej; Sedivy, Jan; ",Deep Neural Networks for Web Page Information Extraction,IFIP International Conference on Artificial Intelligence Applications and Innovations,,,154-163,2016,Springer
+"Quintero, Antonia M Reina; Jiménez, Patricia; Corchuelo, Rafael; ",A Novel Approach to Web Information Extraction,International Conference on Business Information Systems,,,152-161,2015,Springer
+"Peters, Matthew E; Lecocq, Dan; ",Content extraction using diverse feature sets,Proceedings of the 22nd International Conference on World Wide Web,,,89-90,2013,ACM
+"Park, Justin; Barbosa, Denilson; ",Adaptive record extraction from web pages,Proceedings of the 16th international conference on World Wide Web,,,1335-1336,2007,ACM
+
