@@ -1,0 +1,13 @@
+Entity Extraction
+Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
+"Etzioni, Oren; Cafarella, Michael; Downey, Doug; Popescu, Ana-Maria; Shaked, Tal; Soderland, Stephen; Weld, Daniel S; Yates, Alexander; ",Unsupervised named-entity extraction from the web: An experimental study,Artificial intelligence,165,1,91-134,2005,Elsevier
+"Collins, Michael; ",Ranking algorithms for named-entity extraction: Boosting and the voted perceptron,Proceedings of the 40th Annual Meeting on Association for Computational Linguistics,,,489-496,2002,Association for Computational Linguistics
+"Cohen, William W; Sarawagi, Sunita; ",Exploiting dictionaries in named entity extraction: combining semi-markov extraction processes and data integration methods,Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining,,,89-98,2004,ACM
+"Riloff, Ellen; Jones, Rosie; ",Learning dictionaries for information extraction by multi-level bootstrapping,AAAI/IAAI,,,474-479,1999,
+"Collins, Michael; Singer, Yoram; ",Unsupervised models for named entity classification,Proceedings of the joint SIGDAT conference on empirical methods in natural language processing and very large corpora,,,100-110,1999,Citeseer
+"Grishman, Ralph; Sundheim, Beth; ",Message Understanding Conference-6: A Brief History.,COLING,96,,466-471,1996,
+"Song, Wei; Zhao, Shiqi; Zhang, Chao; Wu, Hua; Wang, Haifeng; Liu, Lizhen; Wang, Hanshi; ",Exploiting Collective Hidden Structures in Webpage Titles for Open Domain Entity Extraction,Proceedings of the 24th International Conference on World Wide Web,,,1014-1024,2015,ACM
+"Zhai, Ke; Kozareva, Zornitsa; Hu, Yuening; Li, Qi; Guo, Weiwei; ",Query to Knowledge: Unsupervised Entity Extraction from Shopping Queries using Adaptor Grammars,Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval,,,255-264,2016,ACM
+"Dean, David; ","SAIVT-BNEWS: An Australian Broadcast News Video Dataset for Entity Extraction, and More","Proceedings of the Third Edition Workshop on Speech, Language & Audio in Multimedia",,,1-2,2015,ACM
+"Chinchor, Nancy; Marsh, Elaine; ",Muc-7 information extraction task definition,"Proceeding of the seventh message understanding conference (MUC-7), Appendices",,,359-367,1998,
+"Jiang, Ridong; Banchs, Rafael E; Li, Haizhou; ",Evaluating and Combining Named Entity Recognition Systems,ACL 2016,,,21,2016,
