@@ -1,3 +1,10 @@
+Information Extraction
+Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
+"Gaizauskas, Robert; Wilks, Yorick; ",Information extraction: Beyond document retrieval,Journal of documentation,54,1,70-105,1998,MCB UP Ltd
+"DeJong, Gerald; ",An overview of the FRUMP system,Strategies for natural language processing,113,,149-176,1982,
+"Cowie, Jim; Lehnert, Wendy; ",Information extraction,Communications of the ACM,39,1,80-91,1996,ACM
+"Sager, Naomi; ",Natural language information processing,,,,,1981,"Addison-Wesley Publishing Company, Advanced Book Program"
+
 Entity Extraction
 Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
 "Etzioni, Oren; Cafarella, Michael; Downey, Doug; Popescu, Ana-Maria; Shaked, Tal; Soderland, Stephen; Weld, Daniel S; Yates, Alexander; ",Unsupervised named-entity extraction from the web: An experimental study,Artificial intelligence,165,1,91-134,2005,Elsevier
@@ -11,3 +18,4 @@ Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
 "Dean, David; ","SAIVT-BNEWS: An Australian Broadcast News Video Dataset for Entity Extraction, and More","Proceedings of the Third Edition Workshop on Speech, Language & Audio in Multimedia",,,1-2,2015,ACM
 "Chinchor, Nancy; Marsh, Elaine; ",Muc-7 information extraction task definition,"Proceeding of the seventh message understanding conference (MUC-7), Appendices",,,359-367,1998,
 "Jiang, Ridong; Banchs, Rafael E; Li, Haizhou; ",Evaluating and Combining Named Entity Recognition Systems,ACL 2016,,,21,2016,
+
