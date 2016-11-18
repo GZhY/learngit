@@ -8,10 +8,8 @@
 2. 使用的第三方组件接口与系统接口不一致。
 ## Note
 1. 适配器模式有点“亡羊补牢”的味道，其通常在开发后期或维护期使用。
-
 2. 好的设计事先预防问题，发生问题及时重构解决问题，无法重构或重构成本无法负担时考虑适配。
-
    > 事后控制不如事中控制，事中控制不如事前控制。
-## Sample
 
+## Sample
 [adapter pattern](https://github.com/GZhY/learning-notes/tree/master/books/%E5%A4%A7%E8%AF%9D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/c17-adapter-pattern/sample "adapter pattern") 
