@@ -4,7 +4,7 @@
  * @Last Modified by: GZhY
  * @Last Modified time: 2016-11-18 20:27:50
  */
-public class AdapterModel {
+public class AdapterPattern{
     
     public static void main(String[] args) {
         Player player = new Center("zhangsan");
