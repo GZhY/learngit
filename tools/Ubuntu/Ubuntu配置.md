@@ -1,27 +1,27 @@
 ﻿# Ubuntu配置
-0. 修改异常的分辨率
+0. 修改异常的分辨率  
 > http://www.linuxidc.com/Linux/2016-04/129731.htm
-1. 安装ubuntu16-04后要做的事
+1. 安装ubuntu16-04后要做的事  
 > http://www.cnbeta.com/articles/494747.htm
 > http://staynoob.cn/post/linux/%E5%AE%89%E8%A3%85ubuntu16-04%E5%90%8E%E8%A6%81%E5%81%9A%E7%9A%849%E4%BB%B6%E4%BA%8B/
-2. 安装f.lux 
+2. 安装f.lux   
 > https://github.com/xflux-gui/xflux-gui
-3. Ubuntu常用软件
+3. Ubuntu常用软件  
 > http://www.cnblogs.com/sink_cup/archive/2013/04/26/1987901.html
 > http://skypegnu1.blog.51cto.com/8991766/1767683
-4. 修改hosts，安装chrome
-5. 安装oracle-java， tomcat， mysql， eclipse, pycharm, sublimeText, VScode等 
+4. 修改hosts，安装chrome  
+5. 安装oracle-java， tomcat， mysql， eclipse, pycharm, sublimeText, VScode等   
 > http://www.cnblogs.com/ITBread/p/3925014.html  Ubuntu环境变量解释
 > http://blog.sina.com.cn/s/blog_53a99cf30102v6o4.html
 > http://www.cnblogs.com/renzku/p/5545027.html
-6. 安装IDEA
+6. 安装IDEA  
 > http://www.cnblogs.com/Lyush/p/4114971.html
 > http://blog.csdn.net/techbirds_bao/article/details/9320739
-7. 安装zeal
+7. 安装zeal  
 直接在应用中心中搜索
-8. 修改字体
+8. 修改字体  
 > 工具：Unity Tweak Tool, 字体：微软雅黑，YaHei-Consolas
-9. 安装Gloobus Preview(按空格可以预览文件，同mac)
-10. Remmina远程桌面客户端 可以用vnc连接服务器
-11. mysql客户端：DataGrip(JB大法好)，DBeaver
-12. 死机可能的原因：内核需升级，附加驱动中选择其他的驱动，swap设置一下
+9. 安装Gloobus Preview(按空格可以预览文件，同mac)  
+10. Remmina远程桌面客户端 可以用vnc连接服务器  
+11. mysql客户端：DataGrip(JB大法好)，DBeaver  
+12. 死机可能的原因：内核需升级，附加驱动中选择其他的驱动，swap设置一下  
