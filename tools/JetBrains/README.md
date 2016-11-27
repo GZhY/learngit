@@ -11,7 +11,7 @@
 10. (In low memory machine)Appearance->Show memory indicator: ON
 11. Maven： zy\.m2\settings.xml是用户设置文件(修改为oschina镜像和jdk1.8)
 12. Eidtor->C&F->Font: Primary font:Fira Code; Enable font ligatures:ON
-13. Eidtor->C&F->Language Defaults: Unique color for each p & l v:ON
+13. Eidtor->C&F->Language Defaults->Semantic highlighting: Unique color for each p & l v:ON
 
 ## IDEA 插件
 1. CheckStyle-IDEA 2. FindBugs-IDEA 3. Key promoter 4. MetricsReloaded 5. .ignore
