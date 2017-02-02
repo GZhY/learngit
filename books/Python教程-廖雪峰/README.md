@@ -76,7 +76,48 @@
 
    遗憾的是，大多数编程语言（C有JAVA无）没有针对尾递归做优化，Python解释器也没有做优化，所以，即使把上面的`fact(n)`函数改成尾递归方式，也会导致栈溢出。
 
-31. ​
+31. `L[0:3]`表示，从索引`0`开始取，直到索引`3`为止，但不包括索引`3`。即索引`0`，`1`，`2`，正好是3个元素。如果第一个索引是`0`，还可以省略`0`
+
+32. 既然Python支持`L[-1]`取倒数第一个元素，那么它同样支持倒数切片
+
+33. 切片例子：所有数，每5个取一个：L[::5]；前10个数，每两个取一个：L[:10:2]
+
+34. 列表生成式例子：`[x * x for x in range(1, 11) if x % 2 == 0]` `[i.lower() if isinstance(i, str) else i for i in L1]`
+
+35. 生成器：generator可以在循环的过程中不断推算出后续的元素，第一种方法很简单，只要把一个列表生成式的`[]`改成`()`，就创建了一个generator
+
+36. 我们创建了一个generator后，基本上永远不会调用`next()`，而是通过`for`循环来迭代它，并且不需要关心`StopIteration`的错误
+
+37. 定义generator的另一种方法：如果一个函数定义中包含`yield`关键字，那么这个函数就不再是一个普通函数，而是一个generator
+
+38. generator和函数的执行流程不一样。函数是顺序执行，遇到`return`语句或者最后一行函数语句就返回。而变成generator的函数，在每次调用`next()`的时候执行，遇到`yield`语句返回，再次执行时从上次返回的`yield`语句处继续执行
+
+39. 用`for`循环调用generator时，发现拿不到generator的`return`语句的返回值。如果想要拿到返回值，必须捕获`StopIteration`错误，返回值包含在`StopIteration`的`value`中：
+   ```
+   >>> g = fib(6)
+   >>> while True:
+   ...     try:
+   ...         x = next(g)
+   ...         print('g:', x)
+   ...     except StopIteration as e:
+   ...         print('Generator return value:', e.value)
+   ...         break
+   ...
+   g: 1
+   g: 1
+   g: 2
+   g: 3
+   g: 5
+   g: 8
+   Generator return value: done
+   ```
+
+40. 可以被`next()`函数调用并不断返回下一个值的对象称为迭代器：`Iterator`，生成器都是`Iterator`对象，但`list`、`dict`、`str`虽然是`Iterable`，却不是`Iterator`，不过可以通过`iter()`函数获得一个`Iterator`对象
+41. Python的`Iterator`对象表示的是一个数据流，Iterator对象可以被`next()`函数调用并不断返回下一个数据，直到没有数据时抛出`StopIteration`错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过`next()`函数实现按需计算下一个数据，所以`Iterator`的计算是惰性的，只有在需要返回下一个数据时它才会计算
+42. `Iterator`甚至可以表示一个无限大的数据流，例如全体自然数。而使用list是永远不可能存储全体自然数的
+43. 凡是可作用于`for`循环的对象都是`Iterable`类型，凡是可作用于`next()`函数的对象都是`Iterator`类型，它们表示一个惰性计算的序列
+
+
 ## Reduce
 
 ## Reflect
