@@ -60,20 +60,16 @@
 
 29. 尾递归是指，在函数返回的时候，调用自身本身，并且，return语句不能包含表达式。这样，编译器或者解释器就可以把尾递归做优化，使递归本身无论调用多少次，都只占用一个栈帧，不会出现栈溢出的情况
 
-30. `fact(n)`函数由于`return n * fact(n - 1)`引入了乘法表达式，所以就不是尾递归了。要改成尾递归，需要多一点代码，主要是把每一步的乘积传入到传入到递归函数中：
+30. `fact(n)`函数由于`return n * fact(n - 1)`引入了乘法表达式，所以就不是尾递归了。要改成尾递归，需要多一点代码，主要是把每一步的乘积传入到传入到递归函数中，可以看到，`return fact_iter(num - 1, num * product)`仅返回递归函数本身，`num - 1`和`num * product`在函数调用前就会被计算，不影响函数调用。遗憾的是，大多数编程语言（C有JAVA无）没有针对尾递归做优化，Python解释器也没有做优化，所以，即使把上面的`fact(n)`函数改成尾递归方式，也会导致栈溢出。
    ```
-   >>> def fact(n):
-   ...     return fact_iter(n, 1)
+   def fact(n):
+       return fact_iter(n, 1)
 
-   >>> def fact_iter(num, product):
-   ...     if num == 1:
-   ...         return product
-   ...     return fact_iter(num - 1, num * product)
+   def fact_iter(num, product):
+       if num == 1:
+           return product
+       return fact_iter(num - 1, num * product)
    ```
-
-   可以看到，`return fact_iter(num - 1, num * product)`仅返回递归函数本身，`num - 1`和`num * product`在函数调用前就会被计算，不影响函数调用。
-
-   遗憾的是，大多数编程语言（C有JAVA无）没有针对尾递归做优化，Python解释器也没有做优化，所以，即使把上面的`fact(n)`函数改成尾递归方式，也会导致栈溢出。
 
 31. `L[0:3]`表示，从索引`0`开始取，直到索引`3`为止，但不包括索引`3`。即索引`0`，`1`，`2`，正好是3个元素。如果第一个索引是`0`，还可以省略`0`
 
