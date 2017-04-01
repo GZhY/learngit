@@ -14,8 +14,7 @@
 13. Eidtor->C&F->Language Defaults->Semantic highlighting: Unique color for each p & l v:ON
 
 ## IDEA 插件
-1. CheckStyle-IDEA 2. FindBugs-IDEA 3. Key promoter 4. MetricsReloaded 5. .ignore
-
+1. CheckStyle-IDEA 2. FindBugs-IDEA 3. Key promoter 4. MetricsReloaded 5. .ignore 6. JUnit Generator
 ## 配置备份
 [IDEA_win](https://github.com/GZhY/learning-notes/blob/master/tools/JetBrains/idea2016_settings_win.jar)  
 [Maven Setting](https://github.com/GZhY/learning-notes/blob/master/tools/Maven/settings.xml)
